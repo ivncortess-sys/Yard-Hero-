@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { MdLocalPolice } from "react-icons/md";
 import Banner from "./component/Banner";
+import InstantPriceCalculator from "./component/InstantPriceCalculator";
 import { Leaf, Scissors, Sparkles, Trees } from "lucide-react";
 
 const page = () => {
@@ -126,6 +127,8 @@ const page = () => {
           </div>
         </div>
       </section>
+
+      <InstantPriceCalculator />
 
       <Banner />
     </div>
